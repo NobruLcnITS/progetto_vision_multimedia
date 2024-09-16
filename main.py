@@ -7,7 +7,7 @@ import pandas as pd
 
 c_fucsia = (255, 0, 255)
 c_green = (0, 255, 0)
-model_path = r'..\model\lego.keras'
+model_path = r'..\model\lego_1_04.keras'
 predict_path = 'Data\\predict'
 
 def plot_images(images, predicted_labels, num_images, class_names):
